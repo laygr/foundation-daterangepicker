@@ -461,8 +461,8 @@
 
                 this.updateInputText();
 
-                this.container.find('.calendar').hide();
-                this.hide();
+               // this.container.find('.calendar').hide();
+               // this.hide();
             }
         },
 
