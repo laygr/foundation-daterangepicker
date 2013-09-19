@@ -8,6 +8,13 @@
  * Built for http://www.improvely.com
  */
 
+.rangepicker-box {
+  background: #fff; 
+  cursor: pointer; 
+  padding: 5px 10px; 
+  border: 1px solid #ccc;
+}
+
  .daterangepicker.dropdown-menu {
   max-width: none;
 }
