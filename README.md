@@ -1,6 +1,8 @@
-# Date Range Picker for Foundation
+# Date Range Picker for Foundation (WIP)
 
 ![Improvely.com](http://i.imgur.com/LbAMf3D.png)
+
+_Please not this repo is by far complete! It's really just a quick hack I've done for a project_
 
 This date range picker component for Foundation (forked from [Dan Grossman's picker for Bootstrap](https://github.com/dangrossman/bootstrap-daterangepicker)) creates a dropdown menu from which a user can 
 select a range of dates. I created it while building the UI for [Improvely](http://www.improvely.com), 
