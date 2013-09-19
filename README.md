@@ -1,8 +1,8 @@
-# Date Range Picker for Twitter Bootstrap
+# Date Range Picker for Foundation
 
 ![Improvely.com](http://i.imgur.com/LbAMf3D.png)
 
-This date range picker component for Twitter Bootstrap creates a dropdown menu from which a user can 
+This date range picker component for Foundation (forked from [Dan Grossman's picker for Bootstrap](https://github.com/dangrossman/bootstrap-daterangepicker)) creates a dropdown menu from which a user can 
 select a range of dates. I created it while building the UI for [Improvely](http://www.improvely.com), 
 which needed a way to select date ranges for reports.
 
@@ -11,29 +11,20 @@ and end date from. Optionally, you can provide a list of date ranges the user ca
 of choosing dates from the calendars. If attached to a text input, the selected dates will be inserted 
 into the text box. Otherwise, you can provide a custom callback function to receive the selection.
 
-**[View a demo](http://www.dangrossman.info/2012/08/20/a-date-range-picker-for-twitter-bootstrap/)**
-
 ## Usage
 
-This component relies on [Twitter Bootstrap](http://twitter.github.com/bootstrap/), 
+This component relies on [Foundation](http://foundation.zurb.com/), 
 [Moment.js](http://momentjs.com/) and [jQuery](http://jquery.com/).
-
-Separate stylesheets are included for use with Bootstrap 2 or Bootstrap 3.
 
 Basic usage:
 
-```
-<script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="moment.js"></script>
-<script type="text/javascript" src="daterangepicker.js"></script>
-<link rel="stylesheet" type="text/css" href="bootstrap.css" />
-<link rel="stylesheet" type="text/css" href="daterangepicker-bs3.css" />
+With foundation installed, include the CSS and JS libraries, call the plugin like so:
 
-<script type="text/javascript">
+```
 $(document).ready(function() {
   $('input[name="daterange"]').daterangepicker();
 });
-</script>
+
 ```
 
 The constructor also takes an optional options object and callback function. The function will be called whenever 
@@ -98,7 +89,7 @@ for convenience. It is available under the [MIT license](http://www.opensource.o
 
 --
 
-Copyright 2012-2013 Dan Grossman
+Copyright 2012-2013 Alex Kempton (original version Dan Grossman)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
