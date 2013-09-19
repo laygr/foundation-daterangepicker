@@ -28,9 +28,9 @@
         this.ranges = {};
         this.opens = 'right';
 
-        this.buttonClasses = ['btn', 'btn-small'];
-        this.applyClass = 'btn-success';
-        this.cancelClass = 'btn-default';
+        this.buttonClasses = ['button', 'small'];
+        this.applyClass = '';
+        this.cancelClass = 'alert';
 
         this.format = 'MM/DD/YYYY';
         this.separator = ' - ';
