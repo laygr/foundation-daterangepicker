@@ -171,7 +171,7 @@
                 for (var range in this.ranges) {
                     list += '<li>' + range + '</li>';
                 }
-                list += '<li>' + this.locale.customRangeLabel + '</li>';
+               // list += '<li>' + this.locale.customRangeLabel + '</li>';
                 list += '</ul>';
                 this.container.find('.ranges').prepend(list);
             }
@@ -637,8 +637,8 @@
                 }
                 i++;
             }
-            if (customRange)
-                this.container.find('.ranges li:last').addClass('active');
+         /*   if (customRange)
+                this.container.find('.ranges li:last').addClass('active'); */
         },
 
         buildCalendar: function (month, year, hour, minute, side) {
