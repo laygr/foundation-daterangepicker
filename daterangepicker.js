@@ -85,7 +85,7 @@
             }
         }
 
-        var DRPTemplate = '<div class="daterangepicker dropdown-menu">' +
+        var DRPTemplate = '<div class="daterangepicker panel">' +
                 '<div class="calendars left">'+
                     '<div class="calendar left"></div>' +
                     '<div class="calendar right"></div>' +
