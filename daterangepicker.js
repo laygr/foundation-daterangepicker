@@ -86,9 +86,11 @@
         }
 
         var DRPTemplate = '<div class="daterangepicker dropdown-menu">' +
-                '<div class="calendar left"></div>' +
-                '<div class="calendar right"></div>' +
-                '<div class="ranges">' +
+                '<div class="calendars left">'+
+                    '<div class="calendar left"></div>' +
+                    '<div class="calendar right"></div>' +
+                '</div>'+
+                '<div class="ranges left">' +
                   '<div class="range_inputs">' +
                     '<div class="daterangepicker_start_input" style="float: left">' +
                       '<label for="daterangepicker_start">' + this.locale.fromLabel + '</label>' +
