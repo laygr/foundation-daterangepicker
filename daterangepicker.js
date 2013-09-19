@@ -91,7 +91,7 @@
                     '<div class="calendar right"></div>' +
                 '</div>'+
                 '<div class="ranges left">' +
-                  '<div class="range_inputs">' +
+                 /* '<div class="range_inputs">' +
                     '<div class="daterangepicker_start_input" style="float: left">' +
                       '<label for="daterangepicker_start">' + this.locale.fromLabel + '</label>' +
                       '<input class="input-mini" type="text" name="daterangepicker_start" value="" disabled="disabled" />' +
@@ -102,7 +102,7 @@
                     '</div>' +
                     '<button class="' + this.applyClass + ' applyBtn" disabled="disabled">' + this.locale.applyLabel + '</button>&nbsp;' +
                     '<button class="' + this.cancelClass + ' cancelBtn">' + this.locale.cancelLabel + '</button>' +
-                  '</div>' +
+                  '</div>' + */
                 '</div>' +
               '</div>';
 
