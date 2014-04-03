@@ -409,8 +409,7 @@
         hide: function (e) {
             this.container.hide();
 
-            if (!this.startDate.isSame(this.oldStartDate) || !this.endDate.isSame(this.oldEndDate))
-                this.notify();
+            this.notify();
 
             this.oldStartDate = this.startDate.clone();
             this.oldEndDate = this.endDate.clone();
@@ -462,7 +461,7 @@
                 this.updateInputText();
 
                // this.container.find('.calendar').hide();
-               // this.hide();
+                this.hide();
             }
         },
 
